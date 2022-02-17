@@ -1,17 +1,17 @@
 import React from "react";
 
 class CartItem extends React.Component {
-    // used to update values later in the code
-    constructor() {
-        // calls the constructor of the React.Component class
-        super();
-        this.state = {
-            price: 999,
-            title: 'Mobile Phone',
-            qty: 1,
-            img: ''
-        }
-    }
+    // // used to update values later in the code
+    // constructor() {
+    //     // calls the constructor of the React.Component class
+    //     super();
+    //     this.state = {
+    //         price: 999,
+    //         title: 'Mobile Phone',
+    //         qty: 1,
+    //         img: ''
+    //     }
+    // }
     // use arrow functions to automatically bind functions to the class
     increaseQuantity = () => {
         // this.state.qty += 1;
@@ -47,7 +47,7 @@ class CartItem extends React.Component {
 
     render() {
         // object destructuring
-        const { price, title, qty } = this.state;
+        const { price, title, qty } = this.props.product;
         // every Component needs to have a render function
         // it describes the component
         return (
