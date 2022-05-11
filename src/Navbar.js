@@ -6,7 +6,7 @@ const Navbar = (props) => {
         <div style={styles.nav}>
             <div style={styles.cartIconContainer}>
                 <img
-                    src="https://cdn-icons.flaticon.com/png/512/5542/premium/5542671.png?token=exp=1645462720~hmac=e9ecdc1d51206064120b1e781a73b101"
+                    src="https://cdn-icons.flaticon.com/png/512/2838/premium/2838895.png?token=exp=1652288469~hmac=9641cf7748df54d5c9f7da68abb30472"
                     alt="cart-icon"
                     style={styles.cartIcon}
                 />
